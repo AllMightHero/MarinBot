@@ -620,7 +620,7 @@ Fg.send2Button(from, teks, '© 𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽', `ꨄ︎ Apoyar
       hasil = fgx.reto()
       }
     capt = `‣ *${command.toUpperCase()}* \n\n${hasil}`
-    Fg.send2Button(from, capt, `▢ me Sigueme en IG: https://www.instagram.com/fr0nzk/`, `VERDAD`, `${prefix}verdad`, `RETO`, `${prefix}reto`)
+    Fg.send2Button(from, capt, `▢ Sigueme en IG: https://www.instagram.com/fr0nzk/`, `VERDAD`, `${prefix}verdad`, `RETO`, `${prefix}reto`)
     break
     
     case 'fake':
