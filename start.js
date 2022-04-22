@@ -10,7 +10,7 @@ CFonts.say('MarinBot', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`dylux-bot By FG98 Ig : @fg98._`, {
+CFonts.say(`MarinBot By Orumaito Ig : @fr0nzk`, {
   font: 'console',
   align: 'center',
   colors: ['yellow']
