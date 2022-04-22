@@ -5,7 +5,7 @@ let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
 
-CFonts.say('FG98', {
+CFonts.say('MarinBot', {
   font: 'pallet',
   align: 'center',
   gradient: ['red', 'magenta']

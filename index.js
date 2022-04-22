@@ -454,7 +454,7 @@ switch (command) {
  
  case 'menu': 
  case 'help':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+    capt = `────  *𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽*  ────
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -462,12 +462,12 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *Premium* : ${prem}
 
 ▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
+• 
 
 ${readMore}
 ${menu(prefix)} 
 `
-    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`,  '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
+    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`,  '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
     break
     
    /*case 'menuvc': 
@@ -489,13 +489,13 @@ ${menuVC}
     case 'groups': 
     case 'dylux': 
     gps = `
-≡  *DyLux  ┃ ᴮᴼᵀ*  GRUPOS
+≡  *𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽*  GRUPOS
 
 ▢ ${msg.gp} 1
-https://instabio.cc/fg98ff
+https://chat.whatsapp.com/C9G2Gpz4SbP7nS953qJlNC
 
 ▢ *YouTube*
-• https://www.youtube.com/fg98f
+• 
 `
 m.reply(gps)
 break 
@@ -543,18 +543,15 @@ case 'developer':
 *≡ OWNER*
 
 ▢ Instagram :
-  • https://instagram.com/fg98._
+  • https://www.instagram.com/fr0nzk/
 ▢ WhatsApp : 
-  • wa.me/
+  • wa.me/525518064309
 ▢ Telegram : 
-  • t.me/fgsupp_bot 
-  • t.me/fg98ff (canal)
-  • t.me/fgawgp (grupo)
+  • https://t.me/Fr0nzak
 ▢ Facebook : 
-  • https://facebook.com/fg98ff/
-  • https://facebook.com/fg98A/
+  •
 ▢ YouTube : 
-  • https://youtube.com/fg98f
+  • 
 `)
     break
     
@@ -586,13 +583,13 @@ case 'developer':
 ▢ Versi Wa : ${Fg.user.phone.wa_version}
 
 *≡ OWNER*
-▢ Instagram : https://www.instagram.com/fg98._
-▢ WhatsApp : wa.me/
+▢ Instagram : https://www.instagram.com/fr0nzk/
+▢ WhatsApp : wa.me/525518064309
 
 *≡ SCRIPT*
 ▢ Git : ${package.homepage} 
 ` 
-Fg.send2Button(from, teks, '*_© FG98 DyLux_*', `ꨄ︎ Apoyar`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
+Fg.send2Button(from, teks, '© 𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽', `ꨄ︎ Apoyar`, `${prefix}donate`, `⌬ ${msg.gp}s`, `${prefix}grupos`)
    break
    
     case 'nameninja':
@@ -1056,7 +1053,7 @@ break
 		            ytresult += '*⏳ Duración* : ' + video.timestamp + '\n'
 		            ytresult += '*📤 Publicado* : ' + video.ago + '\n________________________\n\n'
 		    		});
-		    		ytresult += '─── DyLux ┃ ᴮᴼᵀ ───'
+		    		ytresult += '─── 𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽 ┃ ᴮᴼᵀ ───'
 		    		 Fg.sendMessage(from, tbuff, image, {thumbnail:fakethumb , quoted: mek, caption: ytresult})
 		            break
    
@@ -1133,7 +1130,7 @@ break
    if(!linkp) return ('Error')
  // img = await getBuffer(linkp[0].image)
  img = await (await fetch('https://i.ibb.co/CnHx2Fr/fgmy.jpg')).buffer()
-   music = `≡ *FG MUSIC*
+   music = `≡ *𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽*
 ┌──────────────
 ▢ *${msg.titlp}*  : ${linkp[0].title}
 ▢ *${msg.timp}* : ${linkp[0].timestamp}
@@ -1149,7 +1146,7 @@ break
    if(!link) return ('Error')
  // img = await getBuffer(link[0].image)
  img = await (await fetch('https://i.ibb.co/CnHx2Fr/fgmy.jpg')).buffer()
-   music = `≡ *PLAY MUSIC*
+   music = `≡ *𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽*
    
 ▢ *RESULTADOS*
 ≡ Music 1 
@@ -2022,7 +2019,7 @@ case 'delwelcome':
    if(value.toLowerCase() === 'welcome') {
      capt = welc.replace('@user', tag).replace('@name', pushname).replace('@bio', about).replace('@date', tanggal).replace('@desc', groupDesc).replace('@group', groupName) 
  // Fg.sendMessage(from, welm, image, {contextInfo: {  mentionedJid: [sender]}, thumbnail: fakethumb, quoted: mek, caption: capt})
-Fg.send2ButtonLoc(from, welm, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fg98._', '⦙☰ MENU', '/menu', '⏍ INFO GP', '/infogp', false, {
+Fg.send2ButtonLoc(from, welm, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fr0nzk/', '⦙☰ MENU', '/menu', '⏍ INFO GP', '/infogp', false, {
 	      contextInfo: { 
             mentionedJid: Fg.parseMention(capt)
 	      } 
@@ -2030,7 +2027,7 @@ Fg.send2ButtonLoc(from, welm, capt, 'Sígueme en Instagram\nhttps://www.instagra
      } else if(value.toLowerCase() === 'bye') {
        capt = bye.replace('@user', tag).replace('@name', pushname).replace('@bio', about).replace('@date', tanggal).replace('@group', groupName)       
   //Fg.sendMessage(from, welm, image, {contextInfo: {  mentionedJid: [sender]}, thumbnail: fakethumb, quoted: mek, caption: capt})
-   Fg.sendButtonLoc(from, welm, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fg98._', '👋🏻', 'unde', false, {
+   Fg.sendButtonLoc(from, welm, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fr0nzk/', '👋🏻', 'unde', false, {
 	      contextInfo: { 
             mentionedJid: Fg.parseMention(capt)
 	      } 
@@ -2210,7 +2207,7 @@ switch(VoiceCommand) {
   
  case 'menu': 
  case 'help':
-    capt = `────  *DyLux  ┃ ᴮᴼᵀ*  ────
+    capt = `────  *𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽*  ────
     
 ${msg.hi} *${pushname}* ${ucapanWaktu}
     
@@ -2218,12 +2215,12 @@ ${msg.hi} *${pushname}* ${ucapanWaktu}
 ⎔ *Premium* : ${prem}
 
 ▢ ${msg.cretb}
-• https://youtu.be/F4lGWb1WXgM 
+• 
 
 ${readMore}
 ${menu(prefix)} 
 `
-    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *DyLux  ┃ ᴮᴼᵀ*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
+    Fg.send3ButtonLoc(from, thumbfg, capt, `▢ *𝓜𝓪𝓻𝓲𝓷𝓑𝓸𝓽*\n▢ *Total Hits* : ${isTotalcmd}\n▢ *Usuarios* : ${User.length}\n▢ *Runtime* : ${kyun(process.uptime())}\n\n${msg.foll}`, `⦙☰ Menu Vc`, `${prefix}menuvc`, '✆ Owner', `${prefix}owner`, '⏍ Info', `${prefix}info`)
     break
   
   case 'google':
