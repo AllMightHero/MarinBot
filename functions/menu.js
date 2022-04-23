@@ -1,5 +1,5 @@
 exports.menu = (v) => {
-  return `┌─⊷ *MAIN* 
+  return `┌─⊷ *PRINCIPAL* 
 ▢ ${v}bot <text>
 ▢ ${v}info
 ▢ ${v}language
@@ -11,12 +11,11 @@ exports.menu = (v) => {
 ▢ ${v}listban
 ▢ ${v}chatbot on/off
 └─────────────
-≡ List Menu
-┌─⊷ *FUN* 
+┌─⊷ *DIVERSION*
 ▢ ${v}fake text|@user|text
 ▢ ${v}preg
 └─────────────
-┌─⊷ *GAMES* 
+┌─⊷ *JUEGOS*
 ▢ ${v}verdad
 ▢ ${v}reto
 ▢ ${v}ppt
@@ -27,14 +26,14 @@ exports.menu = (v) => {
 ▢ ${v}toimg
 ▢ ${v}attp
 └─────────────
-┌─⊷ *PICTURE* 
+┌─⊷ *IMAGEN* 
 ▢ ${v}pinterest
 ▢ ${v}imagen
 ▢ ${v}girl
 ▢ ${v}man
 ▢ ${v}wallpaper
 └─────────────
-┌─⊷ *TOOLS*
+┌─⊷ *HERRAMIENTAS*
 ▢ ${v}afk <razon>
 ▢ ${v}fakethumb
 ▢ ${v}tomp3
@@ -50,7 +49,7 @@ exports.menu = (v) => {
 ▢ ${v}ytsearch
 ▢ ${v}google
 └─────────────
-┌─⊷ *DOWNLOAD* 
+┌─⊷ *DESCARGA*
 ▢ ${v}play
 ▢ ${v}play2
 ▢ ${v}playvid
@@ -62,7 +61,7 @@ exports.menu = (v) => {
 ▢ ${v}tiktokaudio <link>
 ▢ ${v}mediafire <link>
 └─────────────
-┌─⊷ *TEXT MAKER*
+┌─⊷ *TEXTO*
 ▢ ${v}nameninja <text>
 ▢ ${v}typewriter <text>
 ▢ ${v}blackpill <text>
@@ -80,7 +79,7 @@ exports.menu = (v) => {
 ▢ ${v}getav <text>
 ▢ ${v}listmedia
 └─────────────
-┌─⊷ *VOTING* 
+┌─⊷ *VOTO*
 ▢ ${v}voting <text>
 ▢ ${v}delvote
 ▢ ${v}checkvote
@@ -119,7 +118,7 @@ exports.menu = (v) => {
 ▢ ${v}profile
 ▢ ${v}invite <549xxxx> 
 └─────────────
-┌─⊷ *OWNER* 
+┌─⊷ *DUEÑO*
 ▢ ${v}addpremium @user
 ▢ ${v}delpremium @user
 ▢ ${v}ban @user
@@ -137,12 +136,12 @@ exports.menu = (v) => {
 };
 
 exports.menuVC = `
-┌─⊷ *MAIN* 
+┌─⊷ *PRINCIPAL*
 ▢ menu
 └─────────────
 ┌─⊷ *BUSQUEDA*
 ▢ google
 └─────────────
-┌─⊷ *DOWNLOAD* 
+┌─⊷ *DESCARGA* 
 ▢ play
 └─────────────`;
